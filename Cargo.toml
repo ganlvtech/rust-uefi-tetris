@@ -1,0 +1,12 @@
+[package]
+name = "rust-uefi-tetris"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.19"
+uefi = "0.24.0"
+uefi-services = "0.21.0"
+tetris = { path = "./tetris" }
